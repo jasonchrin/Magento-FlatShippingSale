@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Liquid_Shipping>
+            <version>1.0.0</version>
+        </Liquid_Shipping>
+    </modules>
+    <global>
+        <models>
+            <liquid_shipping>
+                <class>Liquid_Shipping_Model</class>
+            </liquid_shipping>
+        </models>
+        <helpers>
+            <liquid_shipping>
+                <class>Liquid_Shipping_Helper</class>
+            </liquid_shipping>
+        </helpers>
+    </global>
+    <default>
+        <carriers>
+            <liquid_shipping>
+                <active>1</active>
+                <model>liquid_shipping/carrier</model>
+                <title>Liquid Shipping Carrier</title>
+                <sort_order>50</sort_order>
+                <sallowspecific>0</sallowspecific>
+                <express_start_date>1</express_start_date>
+                <express_end_date>1</express_end_date>
+                <express_discount_rate>1</express_discount_rate>
+            </liquid_shipping>
+        </carriers>
+    </default>
+</config>
